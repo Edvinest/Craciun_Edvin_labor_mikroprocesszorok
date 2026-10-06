@@ -226,7 +226,6 @@ void OLED_TestJohnDoe(void)
     // Clear screen
     OLED_Fill(BLACK);
 
-    // Draw "JOHN DOE" centered near top
     OLED_SetCursor(14, 15);
     OLED_WriteString("CRACIUN EDVIN", Font_11x18, WHITE);
 
